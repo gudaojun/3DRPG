@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52487b1c9edeb4e4eb4213fc0f45e64e, type: 3}
+  m_Name: Kill Dialog
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 1
+    image: {fileID: 21300000, guid: 45ff5a9f5ffb13c48a6d5b706cdf0e53, type: 3}
+    text: "\u6700\u8FD1\u6765\u7684\u4E86\u5F88\u591A\u5916\u6765\u5165\u4FB5\u8005\uFF0C\u4F60\u613F\u610F\u53BB\u5E2E\u6211\u6D88\u706D\u4ED6\u4EEC\u5417\uFF1F\u6211\u4E00\u5B9A\u4F1A\u7ED9\u4F60\u4E30\u539A\u7684\u56DE\u62A5\u7684\uFF01"
+    questData: {fileID: 11400000, guid: f3145588b93d82c48b521e88bcd8ec1c, type: 2}
+    options:
+    - text: "\u597D\u7684\u6CA1\u95EE\u9898"
+      targetID: 
+      takeQuest: 1
+    - text: "\u5443\u6211\u8FD8\u662F\u518D\u60F3\u60F3\u5427"
+      targetID: 
+      takeQuest: 1
+    canFoldOut: 1

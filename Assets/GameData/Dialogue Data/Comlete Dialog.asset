@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52487b1c9edeb4e4eb4213fc0f45e64e, type: 3}
+  m_Name: Comlete Dialog
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 01
+    image: {fileID: 0}
+    text: "\u4EC0\u4E48\u4F60\u5DF2\u7ECF\u6536\u96C6\u5B8C\u6210\u4E86\uFF0C\u771F\u662F\u592A\u611F\u8C22\u4E86\uFF0C\u8FD9\u662F\u7ED9\u4F60\u7684\u5956\u52B1\u3002"
+    questData: {fileID: 11400000, guid: b2cf0030417db4643ae4c44d8ac06bca, type: 2}
+    options:
+    - text: "\u8C22\u8C22\u4F60"
+      targetID: 
+      takeQuest: 1

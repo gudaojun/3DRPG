@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98030eb4651b9ba42a33b3ac96364267, type: 3}
+  m_Name: Mushroom Quest
+  m_EditorClassIdentifier: 
+  questName: "\u6536\u96C6\u8611\u83C7"
+  description: "\u81ED\u5C0F\u5B50\u6211\u611F\u89C9\u6709\u70B9\u997F\u4E86\uFF0C\u4F60\u5FEB\u53BB\u7ED9\u6211\u6536\u96C63\u4E2A\u5927\u8611\u83C7"
+  isStarted: 0
+  isComplete: 0
+  isFinished: 0
+  questRequires:
+  - name: "\u5927\u8611\u83C7"
+    requireAmount: 2
+    currentAmount: 0
+  rewards:
+  - itemData: {fileID: 11400000, guid: b5358ff448bdbbb4599715a3128e58b6, type: 2}
+    amount: 1
+  - itemData: {fileID: 11400000, guid: 82081538885cdbc419aa286381a952f9, type: 2}
+    amount: -2
